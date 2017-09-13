@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from log import getLogger
 
-
 logger = getLogger(__name__)
 
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from child import foo
 from log import getLogger
 
+from child import foo
 
 logger = getLogger(__name__)
 
