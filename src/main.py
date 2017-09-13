@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
-from logging import getLogger, FileHandler, DEBUG, basicConfig
 from child import foo
+from log import getLogger
+
 
 logger = getLogger(__name__)
-basicConfig(level=DEBUG)
-
-fh = FileHandler('log.log', 'a+')
-fh.level = DEBUG
-logger.addHandler(fh)
 
 
 def main():
